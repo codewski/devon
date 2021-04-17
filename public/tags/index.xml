@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Codewski&#39;s</title>
+    <link>https://codewski.com/tags/</link>
+    <description>Recent content in Tags on Codewski&#39;s</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Devon Codewski</copyright>
+    <lastBuildDate>Sat, 17 Apr 2021 22:31:18 +0300</lastBuildDate><atom:link href="https://codewski.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Web</title>
+      <link>https://codewski.com/tags/web/</link>
+      <pubDate>Sat, 17 Apr 2021 22:31:18 +0300</pubDate>
+      
+      <guid>https://codewski.com/tags/web/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

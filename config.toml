@@ -1,0 +1,48 @@
+baseURL = "https://codewski.com"
+languageCode = "en-us"
+title = "Codewski's"
+theme="devon"
+copyright = "Devon Codewski"
+paginate = 5
+pygmentsUseClasses=true
+
+# Parameters
+[params]
+    dateFmt = "02.01.2006"
+    showProjectsList = true
+    tagsOverview = true
+    projectsUrl = "https://github.com/codewski"
+# Header
+[menu]
+  [[menu.main]]
+        identifier = "chronicles"
+        name = "Chronicles"
+        url = "/posts/"
+        weight = 1 
+
+  [[menu.main]]
+        identifier = "tags"
+        name = "Tags"
+        url = "/tags/"
+        weight = 2
+
+# Footer
+  [[menu.footer]]
+        name = "Github"
+        url = "https://github.com/codewski"
+        weight = 1 
+
+  [[menu.footer]]
+        name = "Twitter"
+        url = "https://twitter.com/@codewski"
+        weight = 2 
+
+  [[menu.footer]]
+        name = "Devto"
+        url = "https://dev.to/codewski"
+        weight = 3 
+
+  [[menu.footer]]
+        name = "Email"
+        url = "mailto:devon@codewski.com"
+        weight = 4
