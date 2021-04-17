@@ -418,6 +418,9 @@ article img {
   color:var(--tag-color);
 }
 
+figure {
+  margin:1em 0;
+}
 /* Footer */
     
 
