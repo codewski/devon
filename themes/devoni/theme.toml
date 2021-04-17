@@ -1,0 +1,19 @@
+name = "devoni"
+license = "MIT"
+
+description = "A clean, responsive hugo theme for personal blog."
+homepage = "https://github.com/codewski/devoni"
+
+
+
+# If the theme has a single author
+[author]
+    name = "Codewski"
+    homepage = "https://github.com/codewski"
+
+
+
+
+
+
+

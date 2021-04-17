@@ -1,0 +1,25 @@
+{{ define "main" }}
+	<main>
+		
+		<div>
+			<h1>Chronicles</h1>
+		</div>
+	
+		
+		<ul class="post-list">
+		    {{ range .Paginator.Pages }}
+		    <li class="post-item">
+		    <div class="meta"><time datetime="{{ time .Date }}" itemprop="datePublished">{{ .Date.Format "2006-01-02" }}</time>   			
+				  <span class="post-link"><a href="{{ .Permalink }}">{{ if .Title }} {{- .Title -}} {{ else }} {{- print "Untitled" -}}{{ end }}</a></span>
+
+		        </div>
+		    </li>
+			{{ else }}
+			<p>No posts yet!</p>
+
+		    {{ end }}
+		</ul>
+
+		{{ partial "pagination.html" . }}
+	</main>
+{{ end }}

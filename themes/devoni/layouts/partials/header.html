@@ -1,0 +1,28 @@
+<header>
+	
+	<div class="header">
+  
+    <div class="twelve columns">
+      <div id="logo-section" class="ten columns">
+      	
+        <h1 class="logo"><img src="{{ "images/devon.png" | absURL }}">{{ .Site.Title }}</h1>
+       
+        <p class="subtitle">Devon's little place in the chaos of internet world!
+        	
+        </p>
+      </div>
+    </div>
+</div>
+	<a href="{{ .Site.BaseURL }}">
+
+	  
+	<nav>
+			<li><a href="/">Start</a></li>
+			{{ with .Site.Menus.main }}
+			{{ range . }}
+			<li><a href="{{ .URL | relURL }}">{{ .Name }}</a></li>
+			{{ end }}
+	</nav>
+	<br>
+	{{ end }}
+</header>

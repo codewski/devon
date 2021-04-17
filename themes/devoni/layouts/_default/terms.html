@@ -1,0 +1,19 @@
+{{ define "main" }}
+	<main>
+	<section id="tags">
+  	<span class="heading">Topics</span><br>
+    <ul class="cloud" role="navigation" aria-label="tag cloud">
+      {{ $AllRegularPagesCount := len .Site.RegularPages }}
+      {{ range $elem := .Site.Taxonomies.tags.Alphabetical }}
+      <li><a data-weight="{{ index (seq 8 | shuffle) 0 }}" href="{{ $elem.Page.Permalink }}">
+        {{- .Page.Title -}}
+      </a></li>
+      {{ else }}
+      <p>No tags yet!</p>
+      {{ end }}
+    </ul>
+  </section>
+
+
+	</main>
+{{ end }}
