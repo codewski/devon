@@ -46,3 +46,6 @@ pygmentsUseClasses=true
         name = "Email"
         url = "mailto:devon@codewski.com"
         weight = 4
+
+[permalinks]
+  posts = "posts/:title/"
