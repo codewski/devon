@@ -1,7 +1,7 @@
 baseURL = "https://codewski.com"
 languageCode = "en-us"
 title = "Codewski's"
-theme="devon"
+theme="devoni"
 copyright = "Devon Codewski"
 paginate = 5
 pygmentsUseClasses=true

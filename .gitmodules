@@ -1,0 +1,3 @@
+[submodule "devoni"]
+	path = devoni
+	url = https://github.com/codewski/devoni
